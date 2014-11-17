@@ -8,9 +8,14 @@ p {
 	color: black;
 }
 .app {
+	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
 }
+.screenshot {
+	max-width: 460px;
+}
 .description {
-	color: black;
+	max-width: 705px;
+	margin: auto;
 }
